@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="12" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Walls" tilewidth="64" tileheight="64">
+  <image source="Tiles/tile.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="2" name="Start" tilewidth="64" tileheight="64">
+  <image source="Tiles/StartFlag.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="3" name="Finish" tilewidth="64" tileheight="64">
+  <image source="Tiles/Flag.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="4" name="Background" tilewidth="64" tileheight="64">
+  <image source="Tiles/background.png" width="1024" height="768"/>
+ </tileset>
+ <layer name="Background" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxtzNdXD2AAgOHfBZmRlcjMTFY22UJRKHuPrGwJkURWQjbJ3iuSERKhf8xzjhvn+N5znts3EvlbE5oSRTOa04KWtKI10bShLTG0oz0dIv/XkU7E0pk4utCVeLrRnR70pBe9SaBP4NeXfvRnAANJZBBJDGYIQxnGcJIZwcjAbxSjGcNYxjGeCaQwkUlMZgpTmcZ0ZgR+qcxkFrNJI505zCWDTOYxnwVkkc3CwG8Ri1nCUpaxnBWsZBWrWcNa1rGeDeQEfhvZxGa2sJVctrGdHexkF7vZw17y2Bf45bOfAxykgEMcppAjFHGUYo5xnBJOBH4nOcVpzlDKWco4x3kuUM5FLnGZK1wN/K5xnRvcpIJbVHKbO9zlHvd5wEMe8Tjwe8JTnvGcF7zkFa+p4g1vqeYdNbznQ+D3kU/U8pkvfKWOb9TznR808JNf/Kbxn88fmtFKoQ==
+  </data>
+ </layer>
+ <layer name="Tiles" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYGSgHDCi4VHzRs0bTObhsgOfODJmosA8ZizmUQsDAGWUAEo=
+  </data>
+ </layer>
+</map>

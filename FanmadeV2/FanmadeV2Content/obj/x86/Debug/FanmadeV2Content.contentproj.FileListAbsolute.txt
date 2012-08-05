@@ -1,0 +1,2 @@
+C:\Users\Mohammad\Documents\Visual Studio 2010\Projects\FanmadeV2\BasicDemoContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mohammad\Documents\Visual Studio 2010\Projects\FanmadeV2\FanmadeV2Content\obj\x86\Debug\ResolveAssemblyReference.cache

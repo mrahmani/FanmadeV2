@@ -1,0 +1,8 @@
+C:\Users\Mohammad\Documents\Visual Studio 2010\Projects\FanmadeV2\BasicDemo\bin\x86\Debug\Content\desert.xnb
+C:\Users\Mohammad\Documents\Visual Studio 2010\Projects\FanmadeV2\BasicDemo\bin\x86\Debug\Content\desert_tiles.xnb
+C:\Users\Mohammad\Documents\Visual Studio 2010\Projects\FanmadeV2\BasicDemo\bin\x86\Debug\BasicDemo.exe
+C:\Users\Mohammad\Documents\Visual Studio 2010\Projects\FanmadeV2\BasicDemo\bin\x86\Debug\BasicDemo.pdb
+C:\Users\Mohammad\Documents\Visual Studio 2010\Projects\FanmadeV2\BasicDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mohammad\Documents\Visual Studio 2010\Projects\FanmadeV2\BasicDemo\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Mohammad\Documents\Visual Studio 2010\Projects\FanmadeV2\BasicDemo\obj\x86\Debug\BasicDemo.exe
+C:\Users\Mohammad\Documents\Visual Studio 2010\Projects\FanmadeV2\BasicDemo\obj\x86\Debug\BasicDemo.pdb
