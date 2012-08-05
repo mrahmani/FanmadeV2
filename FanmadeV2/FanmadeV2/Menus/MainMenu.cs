@@ -39,6 +39,8 @@ namespace FanmadeV2.Menus
                 SelectedButton++;
             if (keyState.IsKeyDown(Keys.Up) && SelectedButton != Button.Start)
                 SelectedButton--;
+
+            //TODO: modify GameState based on menu selection
         }
     }
 }

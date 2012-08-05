@@ -6,26 +6,29 @@ using Microsoft.Xna.Framework.Input;
 
 namespace FanmadeV2
 {
-    /// <summary>
-    /// This is the main type for your game
-    /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
+        #region Base Game Properties
+
+        //basic setup
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Map map;
+
+        //core variables
+        GameState currState;
  
         //Screenshot variables
-        private bool isScreenshot;  //are we drawing a screenshot right now?
-        private RenderTarget2D screenShot;
+        bool isScreenshot;  //are we drawing a screenshot right now?
+        RenderTarget2D screenShot;
+
+        #endregion
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this)
                            {IsFullScreen = true, PreferredBackBufferHeight = 720, PreferredBackBufferWidth = 1366};
             Content.RootDirectory = "Content";
-            
-            isScreenshot = false;   //we're not initially taking screenshots
         }
 
         /// <summary>
@@ -36,8 +39,9 @@ namespace FanmadeV2
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-
+            currState = GameState.MainMenu;  //start at the main menu
+            isScreenshot = false;   //we're not initially taking screenshots
+            
             base.Initialize();
         }
 
@@ -135,13 +139,6 @@ namespace FanmadeV2
             map.Draw(spriteBatch);
             base.Draw(gameTime);
  
-        }
-
-        //what game state are we in?
-        enum GameState
-        {
-            MainMenu,
-            InGame
         }
     }
 }
